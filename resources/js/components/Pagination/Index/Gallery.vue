@@ -1,9 +1,12 @@
 <template>
-    <div class="col-md-4">
+    <div class="col-md">
         <h4 class="text-center">
             <slot></slot>
         </h4>
-        <img class="img-fluid" src="./logo_thumb.png">
+        <figure class="figure">
+            <img src="./logo_thumb.png" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption text-right">teste</figcaption>
+        </figure>
     </div>
 </template>
 
